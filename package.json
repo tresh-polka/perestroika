@@ -1,0 +1,19 @@
+{
+  "name": "perestroika",
+  "version": "1.0.0",
+  "description": "Пошаговая игра “Перестройка?”",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tresh-polka/perestroika.git"
+  },
+  "author": "1102d",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tresh-polka/perestroika/issues"
+  },
+  "homepage": "https://github.com/tresh-polka/perestroika#readme"
+}
