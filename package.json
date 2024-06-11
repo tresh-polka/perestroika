@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tresh-polka/perestroika/issues"
   },
-  "homepage": "https://github.com/tresh-polka/perestroika#readme"
+  "homepage": "https://github.com/tresh-polka/perestroika#readme",
+  "dependencies": {
+    "eslint": "^9.4.0"
+  }
 }
