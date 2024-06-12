@@ -15,22 +15,82 @@ body {
 }
 
 .background {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
     width: 100%;
     height: 100%;
 }
 
+.information-block {
+    z-index: 2;
+    margin: 5vh 13vw 5vh 24vw;
+}
+
 .question-block {
     z-index: 2;
-    margin: 20px 100px;
+    margin: 5vh 13vw 5vh 24vw;
+}
+
+.title {
+    font-family: 'Bulatov SP Demo', sans-serif;
+}
+
+h1 {
+    font-size: 150px;
 }
 
 h2 {
-    font-family: 'Bulatov SP Demo', sans-serif;
     font-size: 100px;
+}
+
+.next {
+    position: fixed;
+    right: 3vw;
+    bottom: 5vh;
+}
+
+.back {
+    position: fixed;
+    left: 3vw;
+    bottom: 5vh;
+}
+
+.move {
+    color: black;
+    text-decoration: none;
+}
+
+.move:hover {
+    text-decoration: underline;
+}
+
+.move:onclick {
+    color: black;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.comand {
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+}
+
+input {
+    margin-top: 25px;
+    background-color: #e6ac3f;
+    font-size: 35px;
+    height: 70px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    outline:none;
+    caret-color: #6d4e0b;
+}
+
+input::placeholder {
+    color:#6d4e0b;
 }
 
 .description {
@@ -53,7 +113,7 @@ h2 {
     font-size: 40px;
     text-align: center;
     text-align-last: center;
-    background-color: #e6bf3f;
+    background-color: #e6ac3f;
     border: none;
     border-radius: 5px;
     padding: 10px;
