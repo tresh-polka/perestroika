@@ -8,7 +8,15 @@ function displayTeams() {
       const teamElement = document.createElement('div');
       teamElement.classList.add('team');
       teamElement.innerHTML = `
-        <h3>${team.pointsCounter}&nbsp;&nbsp;&nbsp;${team.name}</h3>
+      <div class="team">  
+        <h3>&nbsp;&nbsp;&nbsp;${team.pointsCounter}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${team.name}</h3>
+          <select class="answers">
+          <option class="options">1</option>
+          <option class="options">2</option>
+          <option class="options">3</option>
+          <option class="options">4</option>
+        </select>
+      </div>
       `;
       teamsContainer.appendChild(teamElement);
     });

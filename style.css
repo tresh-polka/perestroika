@@ -97,12 +97,21 @@ input::placeholder {
     font-weight: bold;
 }
 
-.team {
+.teams {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: flex-start;
     height: 70px;
-	gap: 50px;
+}
+
+.team {
+    display: flex;
+    gap: 50px;
+}
+
+.inform-display {
+    font-family: 'discovery font', sans-serif;
+    font-size: 40px;
 }
 
 .answers {
