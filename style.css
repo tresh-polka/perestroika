@@ -58,15 +58,20 @@ h2 {
 
 .move1 {
     color: black;
+    font-family: 'discovery font', sans-serif;
+    font-size: 40px;
+    width: 250px;
     text-decoration: none;
+    background-color: #e6ac3f;
+    border: none;
 }
 
-.move:hover {
+.move1:hover {
     text-decoration: underline;
 }
 
-.move:onclick {
-    color: black;
+.move1:onclick {
+    background-color: #6d4e0b;
     text-decoration: none;
     text-decoration: underline;
 }
