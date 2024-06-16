@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perestroika</title>
+  <link rel="stylesheet" href="../style.css">
+  <link href="../Bulatov SP Demo/BulatovSPDemo.otf" rel="stylesheet">
+</head>
+
+<body>
+  <img src="/images/plakat.jpeg" class="background"></img>
+  <div class="information-block">
+    <h1 class="title">Причины распада СССР</h1>
+    <h2 class="title">Пошаговая игра “Перестройка?”</h2>
+    <button data-url="2-slide.html" class="next1 move1" id="next">дальше ⮕</button>
+  </div>
+  <script src="../scripts/nextPage.js"></script>
+</body>
