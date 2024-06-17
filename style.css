@@ -57,6 +57,9 @@ h2 {
 }
 
 .move1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: black;
     font-family: 'discovery font', sans-serif;
     font-size: 40px;
