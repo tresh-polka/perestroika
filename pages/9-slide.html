@@ -4,11 +4,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Perestroika</title>
   <link rel="stylesheet" href="../style.css">
-  <link href="../Bulatov SP Demo/BulatovSPDemo.otf" rel="stylesheet">
+  <style>
+    @font-face {
+        font-family: 'BulatovSPDemo';
+        src: url('BulatovSPDemo.otf') format('opentype');
+        src: url('discoveryFont') format('opentype');
+    }
+    body {
+        font-family: 'BulatovSPDemo', sans-serif;
+    }
+ </style>
 </head>
 
 <body>
-  <img src="/images/plakat.jpeg" class="background"></img>
+  <img src="../images/plakat.jpeg" class="background"></img>
   <div class="question-block">
     <h2 class="title">1987 год, май</h2>
     <p class="description">После падения цен на нефть республики начинают получать меньшие дотации из центра. Руководство республик требует права самим вести хозяйственную и экономическую деятельность?</p>

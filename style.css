@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Bulatov SP Demo';
-    src: url("/BulatovSPDemo.otf");
+    src: url("./BulatovSPDemo.otf");
 }
 
 @font-face {
     font-family: 'discovery font';
-    src: url("/discoveryFont.otf");
+    src: url("./discoveryFont.otf");
 }
 
 body {

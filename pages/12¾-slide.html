@@ -4,11 +4,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Perestroika</title>
   <link rel="stylesheet" href="../style.css">
-  <link href="../Bulatov SP Demo/BulatovSPDemo.otf" rel="stylesheet">
+  <style>
+    @font-face {
+        font-family: 'BulatovSPDemo';
+        src: url('BulatovSPDemo.otf') format('opentype');
+        src: url('discoveryFont') format('opentype');
+    }
+    body {
+        font-family: 'BulatovSPDemo', sans-serif;
+    }
+ </style>
 </head>
 
 <body>
-  <img src="/images/plakat.jpeg" class="background"></img>
+  <img src="../images/plakat.jpeg" class="background"></img>
   <div class="information-block">
     <h2 class="title">РАЗВАЛЕНО</h2>
     <p class="description">К сожалению, ни одна из команд не набрала нужное количество баллов<br/><br/>СССР ВСЁ!<br/><br/>Чтобы продолжить игру у какой либо из команд должно быть от 3 баллов</p>
